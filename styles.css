@@ -1,1 +1,19 @@
 
+/* Custom Bootstrap overrides (compiled from SCSS) */
+:root {
+  --bs-primary: #6f42c1;
+  --bs-secondary: #20c997;
+  --bs-font-sans-serif: "Segoe UI", sans-serif;
+}
+
+body {
+  font-family: var(--bs-font-sans-serif);
+}
+
+header {
+  background-color: var(--bs-primary);
+}
+
+footer {
+  background-color: #000;
+}
